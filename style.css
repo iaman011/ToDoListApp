@@ -9,10 +9,15 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: IndianRed;
-    /* background: linear-gradient(135deg, #07576f, #096977); */
+body {
+    /* font-family: Arial, sans-serif; */
+    background-color: DarkCyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
 
 .container {
     
@@ -54,7 +59,8 @@ img {
 }
 
 .input-container input[type="button"]{
-    background-color: YellowGreen;
+    color: white;
+    background-color: black;
     color: rgb(245, 247, 248);
     font-weight: 700;
     margin-left: 8px;
@@ -82,6 +88,7 @@ ul li{
     display: flex;
     /* flex-direction: column; */
     text-align: center;
+    display: inline-block;
     justify-content:space-between;
     padding: 6px 12px;
     border: 1px solid black;
@@ -100,28 +107,45 @@ ul li:hover{
 
 ul li p{
     flex-grow: 1;
-    width: 60%;
+    width: 70%;
     padding: 2px;
     text-align: left;
+    display: inline-block;
+    
 }
 
 .btn{
-    border: none;
+    border: 1px solid black;
     outline: none;
-    font-size: 16px;
     background: none;
     font-weight: 600;
     cursor: pointer;
-    padding: 8px;
+    padding: 4px;
+    margin: 24px;
+      color: white;
+    background-color: black;
+    width: 80px; /* Set a fixed width */
+    height: 40px; /* Set a fixed height */
+    font-size: 16px; /* Adjust font size */
+    border-radius: 5px; /* Optional: rounded corners */
+    text-align: center; /* Center the text */
+    display: inline-block; /* Ensure they stay inline */ */
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
 }
 
 .deleteBtn{
-    color: #ff0000;
+    background-color: #ff0000;
+    
 }
 
 .editBtn{
-    color: #008000;
+    background-color: #008000;
 }
-    
+
+ 
 
 
